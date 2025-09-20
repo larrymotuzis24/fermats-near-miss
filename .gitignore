@@ -1,20 +1,20 @@
-# Python basics
+#Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Environments
+#Environments
 .env
 .venv
 venv/
 env/
 
-# Packaging
+#packaging
 build/
 dist/
 *.spec
 
-# OS/IDE
+#OS/IDE
 .DS_Store
 .vscode/
 .idea/

@@ -10,9 +10,9 @@ Program submission date:9/20/2025
 Resources used: Python documentation, assignment handout, Stack Overflow
 
 Program summary:
-Prompts the user for n (3-11) and k (≥10), iterates all x,y in [10..k] to find the smallest
-relative “near miss” to x^n + y^n = z^n. Prints each new smallest miss found and at the end
-prints the overall best result with labeled values (x, y, z, S, miss, relative miss).
+Given n (3–11) and k (≥10), the program searches all (x, y) in [10..k] for the
+smallest relative near miss to (x^n + y^n = z^n).Prints each new best near miss
+and ends with the best overall, with clearly labeled values.
 
 """
 

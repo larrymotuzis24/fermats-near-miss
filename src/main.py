@@ -10,19 +10,30 @@ Program submission date:9/20/2025
 Resources used: Python documentation, assignment handout, Stack Overflow
 
 Program summary:
-Given n (3–11) and k (≥10), the program searches all (x, y) in [10..k] for the
+Given n (3-11) and k (≥10), the program searches all (x, y) in [10..k] for the
 smallest relative near miss to (x^n + y^n = z^n).Prints each new best near miss
 and ends with the best overall, with clearly labeled values.
 
 """
 
+## helper functions
+def _read_int(prompt: str) -> int:
+    """read an integer from input, re-prompt on invalid entry."""
+    while True:
+        try:
+            return int(input(prompt).strip())
+        except ValueError:
+            print("Please enter a valid integer.")
+
 def main():
     # Step 1: Input handling ------------------------------------------
     # Ask the user for the power n (must be between 3 and 11, since 2 < n < 12)
-    n = int(input("Enter power n (3–11): "))
+    # use helper function to ensure valid integer input
+    n = _read_int("Enter power n (3–11): ")
     
     # Ask the user for the upper bound k (x and y will range from 10 to k)
-    k = int(input("Enter maximum value k (>10): "))
+    # use helper function to ensure valid integer input
+    k = _read_int("Enter maximum value k (>10): ")
 
     # Initialize tracking variables -----------------------------------
     # Store the smallest relative miss found so far (start with 1.0 = 100%)

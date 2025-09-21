@@ -1,5 +1,5 @@
 # Looking for Fermat’s Last Theorem Near Misses
-# Note for proffesor - Kaushalkumar Dineshbhai Sharma had trouble with github so he just shared his code with me.
+# Note for proffesor - Kaushalkumar Dineshbhai Sharma had trouble with github so he shared his code with me.
 # His contributions included a lot of the core logic and coding. 
 
 ## What this program does
